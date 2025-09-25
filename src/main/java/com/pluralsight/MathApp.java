@@ -55,6 +55,15 @@ public class MathApp {
         // Ex: Math.random() * anyNumber
         double randomNumber = Math.random();
         System.out.println("A random number between 0 and 1 is " + randomNumber);
+        // Question 8
+        // Calculate how many minutes are in 24 days
+        // use a variable for each value you calculate with
+        int days = 24;
+        int hoursInDay = 24;
+        int minInHour = 60;
+        int minInDays = days * hoursInDay * minInHour;
+        System.out.println("There are " + minInDays + " minutes in 24 days.");
+
 
 
 
